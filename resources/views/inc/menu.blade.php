@@ -11,7 +11,7 @@
         </li>
          @if (Auth::check())
             <li class="nav-item">
-                <a href="{{url('/')}}/logout" class="nav-link" target="_blank">[logout]</a>
+                <a href="{{url('/')}}/logout" class="nav-link">[logout]</a>
             </li>
         @endif    
     </ul>
